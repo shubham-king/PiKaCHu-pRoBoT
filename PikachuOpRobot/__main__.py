@@ -39,32 +39,32 @@ from PikachuOpRobot.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`𝐇𝐢..𝐖𝐞𝐥𝐜𝐨𝐦𝐞` [😎](https://telegra.ph/file/aebae6e955f9ba4adcedf.jpg)
-`𝐈'𝐦` 𝐏𝐢𝐤𝐚𝐜𝐡𝐮 🤗
-`𝐈'𝐦 𝐇𝐞𝐫𝐞 𝐓𝐨 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮 𝐌𝐚𝐧𝐚𝐠𝐞 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬.. 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐥𝐩 𝐁𝐮𝐭𝐭𝐨𝐧 𝐓𝐨 𝐅𝐢𝐧𝐝 𝐎𝐮𝐭 𝐌𝐨𝐫𝐞 𝐀𝐛𝐨𝐮𝐭 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 𝐓𝐨 𝐌𝐲 𝐅𝐮𝐥𝐥 𝐏𝐨𝐭𝐞𝐧𝐭𝐢𝐚𝐥..`
+`ｈｅｙ , ｗｅｌｃｏｍｅ` [🔸](https://telegra.ph/file/7c3f85b583f2ed18678ef.jpg)
+`ɪ ᴀᴍ` ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ 🔻
+`ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ᴄᴏᴏʟ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍᴇ! ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ!  ɪ ᴀᴍ ᴀ ᴘʀᴏᴊᴇᴄᴛ ᴜɴᴅᴇʀ © ʀᴏʙᴏᴛ ᴛᴇᴄʜ`
 """
 
-buttons = [[InlineKeyboardButton(text="🖤 𝐇𝐞𝐥𝐩 𝐀𝐧𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🖤",
+buttons = [[InlineKeyboardButton(text="𝐡𝐞𝐥𝐩 𝐚𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝",
                                   callback_data="help_back"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="👾 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 👾",
-                                  url="t.me/Pikachu_op_robot?startgroup=true"),
+buttons += [[InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴀɴᴀɢᴇʀ ᴛᴏ ɢʀᴏᴜᴘ",
+                                  url="t.me/GroupManager_Advancebot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="🎉 𝐉𝐨𝐢𝐧 𝐅𝐨𝐫 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🎉",
-                                  url="https://t.me/TG_CODERS_UPDATES"),
-             InlineKeyboardButton(text="💝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐫𝐨𝐮𝐩 💝",
-                                  url="https://t.me/TG_X_CODERS"),
+buttons += [[InlineKeyboardButton(text="υρԃαƚҽʂ ƈԋαɳɳҽʅ",
+                                  url="https://t.me/RobotTech_official"),
+             InlineKeyboardButton(text="ʂυρρσɾƚ ƈԋαƚ",
+                                  url="https://t.me/RobotTech_chat"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💫 𝐂𝐥𝐨𝐬𝐞 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮 💫",
+buttons += [[InlineKeyboardButton(text="ƈʅσʂҽ ɱҽɳυ",
                                   callback_data="close_menu")]]
 
 
 HELP_STRINGS = f"""
-`𝐇𝐢.. 𝐈'𝐦` 𝐏𝐢𝐤𝐚𝐜𝐡𝐮 [😎](https://telegra.ph/file/8d7f24cd83fd817d3405f.jpg)
-`𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬..`"""
+`ʜɪ...., ɪ ᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ [🔸](https://telegra.ph/file/7c3f85b583f2ed18678ef.jpg)
+`ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ  ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -176,7 +176,7 @@ def start(update, context):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_text("𝐇𝐞𝐲𝐚...,𝐏𝐢𝐤𝐚𝐜𝐡𝐮 🔥 𝐇𝐞𝐫𝐞,𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐇𝐞𝐥𝐩 𝐘𝐨𝐮? 🧐")
+        update.effective_message.reply_text("ʜᴇʏ...ɢʀᴏᴜᴘ ᴍᴀɴɢᴇʀ ⚡ ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ")
 
 
 
@@ -192,12 +192,12 @@ def send_start(update, context):
     chat = update.effective_chat  # type: Optional[Chat]
     first_name = update.effective_user.first_name
     text = PM_START_TEXT
-    buttons = [[InlineKeyboardButton(text="🖤 𝐇𝐞𝐥𝐩 𝐀𝐧𝐝 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 🖤",
+    buttons = [[InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ",
                                   callback_data="help_back"),
     ]]
              
 
-    buttons += [[InlineKeyboardButton(text="𝐂𝐥𝐨𝐬𝐞 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮🔥",
+    buttons += [[InlineKeyboardButton(text="ᴄʟᴏꜱᴇ ᴍᴀɪɴ ᴍᴇɴᴜ",
                                   callback_data="close_menu")]]
 
 
@@ -641,7 +641,7 @@ def main():
         updater.start_polling(timeout=15, read_latency=4)
         updater.bot.send_message(
             chat_id=MESSAGE_DUMP,
-            text="𝐏𝐢𝐤𝐚 𝐏𝐢𝐤𝐚 𝐈 𝐍𝐨𝐰 𝐎𝐧𝐥𝐢𝐧𝐞")
+            text="𝖎 𝖆𝖒 𝖔𝖓𝖑𝖎𝖓𝖊 ")
         client.run_until_disconnected()
 
     updater.idle()
